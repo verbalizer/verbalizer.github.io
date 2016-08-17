@@ -3,6 +3,7 @@ body {
     width: 70%;
     background-image: url("/images/header.jpg");
     background-repeat: no-repeat;
+    background-size: 100% 20%;
 }
 
 nav ul, footer ul {
