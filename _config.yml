@@ -1,0 +1,8 @@
+name :  Verbalizer
+markdown : kramdown
+
+collections:
+  tutorials:
+    output: true
+  samples:
+    output: true

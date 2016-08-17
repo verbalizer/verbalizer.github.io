@@ -1,0 +1,10 @@
+---
+layout : default
+title : Examples of usage
+---
+
+<ul>
+  {% for sam in site.samples %}
+  		<li><a href="{{ sam.url }}">{{ sam.title }}</a></li>
+  {% endfor %}
+</ul>
