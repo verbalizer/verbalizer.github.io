@@ -45,3 +45,9 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+img.tutorial{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
