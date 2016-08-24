@@ -17,7 +17,12 @@ nav ul li, footer ul li {
     margin-right: 20px;
 }
 
-ul.container{
+ul.linklist{
+    font-size: 1.5em;
+    line-height: 1.4em;
+}
+
+ol.tutlist{
     font-size: 1.5em;
     line-height: 1.4em;
 }
