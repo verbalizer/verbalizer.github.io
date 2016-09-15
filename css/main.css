@@ -64,6 +64,11 @@ img.tutorial{
   margin-right: auto;
 }
 
+img{
+  float: right;
+  margin: 0 0 10px 10px;
+}
+
 li.la{
   text-align: left
 }
