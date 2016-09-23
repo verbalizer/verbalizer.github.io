@@ -58,10 +58,23 @@ ul.posts li {
     list-style: none;
 }
 
-img.tutorial{
+img{
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+img.tutorial{
+  float: right;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img.about{
+  float: left;
+  margin: 0 0 10px 10px;
+  width: auto;
+  height: 150px;
 }
 
 li.la{
