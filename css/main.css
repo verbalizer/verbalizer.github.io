@@ -47,7 +47,7 @@ p {
 }
 
 p.terminal {
-    font-family: 'Lucida Console','Lucida Sans Typewriter','monaco','Bitstream Vera Sans Mono','monospace';
+    font-family: Lucida Console,Lucida Sans Typewriter,monaco,Bitstream Vera Sans Mono,monospace;
 }
 
 footer {
@@ -86,3 +86,4 @@ img.about{
 li.la{
   text-align: left
 }
+
