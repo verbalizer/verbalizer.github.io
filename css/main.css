@@ -46,8 +46,14 @@ p {
     color: #333;
 }
 
-p.terminal {
-    font-family: "Courier New","Liberation Mono", Courier, monospace
+div.terminal {
+    font-family: "Courier New","Liberation Mono", Courier, monospace;
+    background-color:#163d10;
+    width: 70%;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0; 
+
 }
 
 footer {
