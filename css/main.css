@@ -47,7 +47,7 @@ p {
 }
 
 p.terminal {
-    font-family: Lucida Console,Lucida Sans Typewriter,monaco,Bitstream Vera Sans Mono,monospace;
+    font-family: "Courier New", Courier, monospace
 }
 
 footer {
