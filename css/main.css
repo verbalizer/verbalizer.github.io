@@ -45,6 +45,11 @@ p {
     line-height: 1.4em;
     color: #333;
 }
+
+p.terminal {
+    font-family: 'Lucida Console','Lucida Sans Typewriter','monaco','Bitstream Vera Sans Mono','monospace';
+}
+
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
