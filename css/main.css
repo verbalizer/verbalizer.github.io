@@ -48,11 +48,13 @@ p {
 
 div.terminal {
     font-family: "Courier New","Liberation Mono", Courier, monospace;
+    font-size: 1.5em;
+    color: #b0d875; 
     background-color:#163d10;
     width: 70%;
     padding: 10px;
-    border: 5px solid gray;
-    margin: 0; 
+    border: 3px solid black;
+    margin: 10px; 
 
 }
 
