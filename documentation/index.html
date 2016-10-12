@@ -22,24 +22,9 @@ title : Documentation
 
 <p>
 	You find some tutorials here.
-	<ul class="linklist">
-
-	  <li>
-	    <a href="./tutorials.html">Tutorials </a>
-	  </li>
-
-	<!--
-	  <li>
-	    <a href="./samples.html">Some usage examples</a>
-	  </li>
-
-	  <li>
-	    <a href="/index.html">How to engineer your Ontology for the best experience (this link leads to home)</a>
-	  </li>
-
-	  <li>
-	    <a href="/index.html">Manual (this link leads to home)</a>
-	  </li>
-	-->
-	</ul>
-</p>
+		<ul class="linklist">
+		  {% for tut in site.tutorials %}
+		  		<li><a href="{{ tut.url }}">{{ tut.title }}</a></li>
+		  {% endfor %}
+		</ul>
+	</p>

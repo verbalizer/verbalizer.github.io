@@ -49,9 +49,10 @@ p {
 div.terminal {
     font-family: "Courier New","Liberation Mono", Courier, monospace;
     font-size: 1.2em;
-
-    color:            #9F9C59 ; /*#b0d875;*/
-    background-color: #2E4413 ; /*#163d10;*/
+    font-weight: bold;
+    
+    color:            white; /*#9F9C59 ;*/
+    background-color: #2E4413; /*#163d10;*/
 
     width:  auto;
 
