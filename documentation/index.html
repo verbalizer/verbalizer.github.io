@@ -9,7 +9,7 @@ title : Documentation
 
 <p>
 	To get the plugin up and running in <em>Protege 5</em> you must at first download the
-	<a href="https://bwsyncandshare.kit.edu/dl/fi58VdiKASqrUn5mbFt97wCD/verbalizerPluginProtege.zip">archive</a>.
+	<a href="/data/Verbalizer_1.0.1.zip">archive</a>.
 	Then unzip the file and copy or move the jar file to the plugins folder of your Protege installation
 	(under Protege 5, this is default Java/plugins).
 	Start Protege and open/classify an ontology (e.g. this small example <a href="/data/party.owl">ontology</a>).
@@ -22,24 +22,9 @@ title : Documentation
 
 <p>
 	You find some tutorials here.
-	<ul class="linklist">
-
-	  <li>
-	    <a href="./tutorials.html">Tutorials </a>
-	  </li>
-
-	<!--
-	  <li>
-	    <a href="./samples.html">Some usage examples</a>
-	  </li>
-
-	  <li>
-	    <a href="/index.html">How to engineer your Ontology for the best experience (this link leads to home)</a>
-	  </li>
-
-	  <li>
-	    <a href="/index.html">Manual (this link leads to home)</a>
-	  </li>
-	-->
-	</ul>
-</p>
+		<ul class="linklist">
+		  {% for tut in site.tutorials %}
+		  		<li><a href="{{ tut.url }}">{{ tut.title }}</a></li>
+		  {% endfor %}
+		</ul>
+	</p>
